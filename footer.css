@@ -1,0 +1,27 @@
+footer {
+    background-color: #131211;
+    padding: 20px;
+    color: #fff;
+}
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #ff2b06 !important;
+    text-decoration: underline !important;
+}
+.nav-link {
+    background: linear-gradient(320deg, #ff2b06 5px, #131211 0);
+    color: #ffffff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 0px 6px !important;
+    margin: 5px;
+}
+.license {
+    font-size: 13px;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 13px;
+}
