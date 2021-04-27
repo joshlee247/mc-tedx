@@ -20,9 +20,13 @@
     padding-top: 50px;
 }
 .logo-link {
+    text-align: center;
     padding: 8px;
     background-color: #FF2B06;
     color: #fff;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
 }
 .dropdown-menu {
     background: linear-gradient(320deg, #ff2b06 7px, #333333 0);
