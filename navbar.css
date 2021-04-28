@@ -1,3 +1,17 @@
+@media screen and (max-width: 992px) {
+    .header-logo {
+        width: 70%;
+        height: auto;
+    }
+    .socials {
+        padding: 0 !important;
+    }
+    .logo-link {
+        width: 28px !important;
+        height: 28px !important;
+        padding: 4px !important;
+    }
+}
 .header-logo {
     padding: 0 5px;
 }

@@ -13,6 +13,9 @@ a {
     max-width: 1050px;
     margin: 0 auto;
 }
+.carousel {
+    padding: 10px;
+}
 .carousel-caption {
     width: 100%;
     right: 0 !important;
