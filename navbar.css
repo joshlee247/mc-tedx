@@ -11,6 +11,9 @@
         height: 28px !important;
         padding: 4px !important;
     }
+    .send {
+        width: 100% !important;
+    }
 }
 body {
     font-size: 13px !important;
@@ -38,6 +41,7 @@ body {
     padding: 0 0 0 10px !important;
     border-radius: 0 !important;
     border: none !important;
+    max-width: 320px;
 }
 .socials {
     padding-top: 50px;
@@ -132,4 +136,10 @@ body {
 }
 .subcontent {
     padding: 39px;
+}
+.blog-form {
+    padding: 10px !important;
+}
+.form-group {
+    margin: 0 0 5px;
 }
