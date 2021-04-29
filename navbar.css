@@ -127,6 +127,8 @@ body {
 .dropdown-link {
     text-decoration: none;
     color: #fff;
+    width: 100%;
+    display: block;
 }
 @keyframes to-grey{
     from {
