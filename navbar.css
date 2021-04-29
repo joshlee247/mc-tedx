@@ -52,11 +52,21 @@ body {
 .logo-link {
     text-align: center;
     padding: 8px;
-    background-color: #FF2B06;
+    background: linear-gradient(to bottom, #FF2B06 0 50%, #333333 50% 100%);
+    background-size: 100% 200%;
     color: #fff;
     display: inline-block;
     width: 36px;
     height: 36px;
+    animation: to-red .2s 1;
+}
+.logo-link:hover{
+    /* background-position: 0 100%; */
+    animation: to-grey .2s 1;
+    background: linear-gradient(to bottom, #FF2B06 0 50%, #333333 50% 100%);
+    background-position: 0 100%;
+    background-size: 100% 200%;
+    color: #fff !important;
 }
 .dropdown-menu {
     background: linear-gradient(320deg, #ff2b06 7px, #333333 0);
@@ -142,4 +152,28 @@ body {
 }
 .form-group {
     margin: 0 0 5px;
+}
+@keyframes to-grey{
+    from {
+        background: linear-gradient(to bottom, #FF2B06 0 50%, #333333 50% 100%);
+        background-position: 0 0;
+        background-size: 100% 200%;
+    }
+    to {
+        background: linear-gradient(to bottom, #FF2B06 0 50%, #333333 50% 100%);
+        background-position: 0 100%;
+        background-size: 100% 200%;
+    }
+}
+@keyframes to-red{
+    from {
+        background: linear-gradient(to bottom, #333333 0 50%, #FF2B06 50% 100%);
+        background-position: 0 0;
+        background-size: 100% 200%;
+    }
+    to {
+        background: linear-gradient(to bottom, #333333 0 50%, #FF2B06 50% 100%);
+        background-position: 0 100%;
+        background-size: 100% 200%;
+    }
 }
