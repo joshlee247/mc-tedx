@@ -128,31 +128,6 @@ body {
     text-decoration: none;
     color: #fff;
 }
-.breadcrumb-item {
-    color: #666666 !important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11.7px;
-}
-.breadcrumb-item > a{
-    color: #666666 !important;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11.7px;
-}
-.entry-title {
-    font-size: 20px;
-}
-.entry-subtitle {
-    font-size: 14.95px;
-}
-.subcontent {
-    padding: 39px;
-}
-.blog-form {
-    padding: 10px !important;
-}
-.form-group {
-    margin: 0 0 5px;
-}
 @keyframes to-grey{
     from {
         background: linear-gradient(to bottom, #FF2B06 0 50%, #333333 50% 100%);

@@ -59,3 +59,32 @@ a {
 .card-right {
     padding-left: 15px;
 }
+.breadcrumb-item {
+    color: #666666 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.7px;
+}
+.breadcrumb-item > a{
+    color: #666666 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.7px;
+}
+.entry-title {
+    font-size: 20px;
+}
+.entry-subtitle {
+    font-size: 14.95px;
+    font-weight: 600;
+}
+.subcontent {
+    padding: 39px;
+}
+.blog-form {
+    padding: 10px !important;
+}
+.form-group {
+    margin: 0 0 5px;
+}
+.sponsors {
+    padding: 10px;
+}
