@@ -8,6 +8,20 @@ a {
     .content {
         padding: 0 !important;
     }
+    .carousel {
+        padding: 0 12px !important;
+    }
+    .dropdown-menu {
+        width: 100% !important;
+    }
+    .dropdown-link {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+    .card-img {
+        max-width: 200px !important;
+    }
 }
 .content {
     max-width: 1050px;
@@ -40,8 +54,8 @@ a {
     color: #444;
 }
 .card-img {
-    width: 250px !important;
-    height: 141px;
+    max-width: 250px;
+    max-height: 141px;
     padding: 10px;
     border: 1px solid #ccc;
 }
