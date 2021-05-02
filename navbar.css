@@ -23,6 +23,15 @@
     .dropdown-menu .multi-level .show {
         padding: 5px !important;
     }
+    .dropdown-submenu {
+        width: 100% !important;
+    }
+    .dropdown-item {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        width: 50% !important;
+    }
 }
 body {
     font-size: 13px !important;
