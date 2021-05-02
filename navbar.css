@@ -51,6 +51,9 @@ body {
 .nav-link .active {
     background: linear-gradient(320deg, #ff2b06 7px, #000000 0);
 }
+.nav-link{
+    margin-bottom: 0;
+}
 .form-control {
     font-family: 'Open Sans', sans-serif !important;
     font-size: 0.9em !important;
@@ -89,6 +92,10 @@ body {
     background: linear-gradient(320deg, #ff2b06 7px, #333333 0);
     border-radius: 0 !important;
     padding: 0 !important;
+    margin-top: 0 !important;
+}
+.vert-drop{
+    margin-left: 5px !important;
 }
 .dropdown-item {
     color: #fff !important;
