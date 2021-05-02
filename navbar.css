@@ -14,6 +14,23 @@
     .send {
         width: 100% !important;
     }
+    .dropdown-submenu > .dropdown-menu {
+        display: block !important;
+    }
+    body {
+        padding: 20px 0; 
+    }
+    .dropdown-menu .multi-level .show {
+        padding: 5px !important;
+    }
+    .nav-item {
+        max-width: 95vw !important;
+    }
+    .dropdown-item {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
 }
 body {
     font-size: 13px !important;
