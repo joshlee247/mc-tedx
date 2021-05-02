@@ -11,9 +11,6 @@ a {
     .carousel {
         padding: 0 12px !important;
     }
-    .dropdown-menu {
-        width: 100% !important;
-    }
     .dropdown-link {
         white-space: nowrap !important;
         overflow: hidden !important;
